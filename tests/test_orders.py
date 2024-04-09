@@ -5,7 +5,7 @@ import datetime
 
 
 class TestOrders(BaseCase):
-    def test_logout_without_token(self):
+    def test_orders(self):
         # Берем текущую дату и время, и приравниваем к большему
         now = datetime.datetime.now()
         if now.minute != 0 or now.second != 0:
